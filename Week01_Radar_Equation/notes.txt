@@ -1,0 +1,57 @@
+Week 1: Radar Fundamentals & Radar Equation
+
+--------------------------------------------
+🎯 Goals:
+- Understand different radar types: Pulse, Doppler, FMCW
+- Learn and implement the radar range equation
+- Visualize how radar parameters affect detection range
+
+--------------------------------------------
+🧠 Key Concepts:
+
+1. Radar Types:
+   - Pulse Radar: Transmits pulses, measures time delay for range
+   - Doppler Radar: Measures velocity via frequency shift
+   - FMCW Radar: Continuous frequency-modulated wave for range and velocity
+
+2. Radar Range Equation (simplified form):
+
+   Pr = (Pt * G^2 * λ^2 * σ) / ((4π)^3 * R^4 * L)
+
+   where:
+   - Pr: received power
+   - Pt: transmitted power
+   - G: antenna gain
+   - λ: wavelength
+   - σ: radar cross section (RCS) of the target
+   - R: range to target
+   - L: system losses
+
+3. Maximum Detection Range:
+
+   Using minimum detectable power (threshold), solve for R
+
+4. Important Parameters:
+   - Pulse Repetition Frequency (PRF)
+   - Range resolution
+   - Signal-to-Noise Ratio (SNR)
+
+--------------------------------------------
+🛠 Code / Simulation:
+
+- Created Python/MATLAB script to calculate maximum detection range.
+- Plotted detection range vs. transmit power and frequency.
+- Visualized effects of varying antenna gain and target RCS.
+
+--------------------------------------------
+📚 Resources:
+
+- MIT OpenCourseWare: Radar Systems Lectures 1 & 2
+- RadarBook.com: Chapters 1 & 2
+- Python SciPy/Numpy tutorials
+
+--------------------------------------------
+📝 Next Steps:
+
+- Implement more accurate radar equation including noise figure and clutter
+- Start simulating pulse radar signals for Week 2
