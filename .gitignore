@@ -261,7 +261,21 @@ pathdef.m
 
 
 
+
 # ... more MATLAB rules
+
+
+
+
+*.pyc
+__pycache__/
+*.mat
+*.fig
+*.vtk
+
+
+
+
 
 
 
