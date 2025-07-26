@@ -1,3 +1,4 @@
+# Python
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -205,3 +206,62 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+
+
+
+
+
+# ... more Python rules
+
+
+
+# MATLAB
+# Ignore backup and autosave files
+*~
+*.asv
+
+# Ignore MATLAB cache and temporary files
+*.m~
+*.mat~
+*.mlx~
+*.fig~
+*.mdl~
+*.slx~
+
+# Ignore compiled MEX files (platform-dependent)
+*.mex*
+*.p
+
+# Ignore user-specific files
+*.log
+*.autosave
+
+# Ignore Simulink cache and code generation folders
+slprj/
+sfprj/
+codegen/
+_work/
+
+# Ignore MATLAB crash dumps
+matlab_crash_dump.*
+javaclasspath.txt
+pathdef.m
+
+# Ignore project-specific generated files (optional)
+.project
+*.mlproj
+*.prj
+*.scc
+*.settings
+
+# Ignore folders created by Simulink Project
+.simulink/
+
+
+
+# ... more MATLAB rules
+
+
+
